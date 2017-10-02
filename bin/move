@@ -8,5 +8,5 @@ print "Where would you like to go?"
 user_input = gets.strip
 index = user_input.to_i
 input_to_index(user_input)
-move(board,index,"X")
+move(board,index,char)
 display_board(board)
